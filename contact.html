@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<!-- Start Head -->
+	<head>
+		<!-- Start Meta -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="text" content="">
+		<meta name="author" content="">
+		<!-- End Meta -->
+		<!--Title -->
+		<title>Amani Projekts - Together We Grow</title>
+		<!--End Title -->
+		<!-- Icons -->
+		<link rel="shortcut icon" href="favicon.png">
+		<link rel="icon" href="favicon.png" type="image/x-icon">
+		<!-- END Icon -->
+		<!-- CSS Files -->
+			<!-- Font Awesome Icons -->
+			<link rel="stylesheet" href="css/font-awesome.min.css"/>
+			<script src="https://kit.fontawesome.com/5032fee4e3.js" crossorigin="anonymous"></script>
+			<!-- Lightbox -->
+			<link rel="stylesheet" href="css/lightbox.css" />
+			<!-- Text Rotator -->
+			<link rel="stylesheet" href="css/simpletextrotator.css" />
+			<!-- ionicons Icons -->
+			<link rel="stylesheet" href="css/ionicons.min.css" /> 
+			<!-- Default Style -->
+			<link rel="stylesheet" href="css/reset.css" />
+			<!-- Uikit -->
+			<link rel="stylesheet" href="css/uikit.min.css" />
+			<!-- Bootstrap Framework -->
+			<link rel="stylesheet" href="css/bootstrap.min.css" />
+			<!-- Main Stylesheet -->
+			<link rel="stylesheet" href="css/style.css" />
+		<!-- End CSS Files -->
+		<!-- Modernizr Plugin -->
+			<script src="js/modernizr-custom.js"></script>
+		<!-- END Modernizr Plugin -->
+		<!--[if lt IE 9]>
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<!--End Head -->
+	<!--Body Starts -->
+	<body>
+		<!-- Loading Screen -->
+		<div id="loader-wrapper">
+			<!-- Loading Image -->
+			<div class="loader-img"><img src="img/wulfcorp-loader-logo.png" alt="WulfCorp" /></div>
+			<!-- END Loading Image -->
+			<!-- Loading Screen Split -->
+			<div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+			<!-- End Loading Screen Split -->
+		</div> 
+		<!-- End Loading Screen -->
+		<!-- Main Container -->
+		<div class="container">
+			<!-- All Sections -->
+			<div class="sections">
+				<!-- Navigation Starts -->
+					<nav class="navigation navbar navbar-default navbar-fixed-top">
+						<!-- Navigation Heading -->
+						<div class="navbar-header">
+							<!-- Mobile Navigation Button -->
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<!-- End Mobile Navigation Button -->
+							<!-- Navigation Logo -->
+							<a class="navbar-brand" href="index.html" data-uk-smooth-scroll="{offset: 120}" style="padding-top: 20px;">
+								<img src="img/wulfcorp-logo-white.png" alt="" />
+							</a>
+							<!-- End Navigation Logo -->
+						</div>
+						<!-- End Navigation Heading -->
+						<!-- Navigation Links -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<!-- Navigation List -->
+							<ul class="nav navbar-nav f-small normal raleway">
+								<li>
+									<a href="index.html">Home</a>
+								</li>
+								<li>
+									<a href="about.html">About</a>
+								</li>
+								<li>
+									<a href="project-gallery.html">Projects</a>
+								</li>	
+								<li>
+									<a href="services.html">Services</a>
+								</li>
+								<li>
+									<a href="contact.html">Contact</a>
+								</li>
+							</ul>
+							<!-- End Navigation List -->
+						</div>
+						<!-- End Navigation Links -->
+					</nav>
+					<!-- Navigation Ends -->
+				<!-- Header -->
+				<div id="header-pages" class="image-bg-2 pattern-black">
+					<!-- Section Content -->
+					<div class="section-content">
+						<!-- Heading -->
+						<div class="big-text" data-uk-scrollspy="{cls:'uk-animation-fade', delay:20}">						
+							<!-- Title -->
+							<h2 class="white t-left f-large ultrabold uppercase rotate">Contact.</h2>							
+							<!-- Description -->
+							<h3 class="white t-left f-medium normal uppercase no-margin">Got a question for us?</h3>							
+						</div>
+						<!-- End Heading -->
+					</div>
+					<!-- End Section Content -->
+				</div>
+				<!-- End Header -->
+				<!-- Contact -->
+				<div id="contact">				
+					<!-- Section Content -->
+					<div class="section-content">
+						<!-- Row -->
+						<div class="row">							
+							<!-- Column -->
+							<div class="col-md-12" data-uk-scrollspy="{cls:'uk-animation-fade'}">
+									<!-- Contact Container -->
+									<div id="contact-wrapper">											
+										<!-- Comfermation Results -->
+										<div id="ErrResults" class="dark f-small"></div>
+										<div id="MainResult" class="dark f-small"></div>
+										<!-- END Comfermation Results -->		
+										<!-- Contact Form -->
+										<form id="contact-form" name="contact-form" method="post" action="php/contact.php">										
+											<!-- Name Input and Validation -->
+											<input type="text" name="c-name" id="name" placeholder="Your Name" data-uk-scrollspy="{cls:'uk-animation-fade', delay:100}">				
+											<label for="name" id="nameLb">
+												<span class="error dark f-small">Name Required!</span>
+											</label>
+											<!-- END Name Input and Validation -->
+											<!-- Email Input and Validation -->
+											<input type="email" name="c-email" id="email" placeholder="Your Email" data-uk-scrollspy="{cls:'uk-animation-fade', delay:40}">
+											<label for="email" id="emailLb">
+												<span class="error error1 dark f-small">Email Required!</span> 
+												<span class="error error2 dark f-small">Email Not Valid!</span>
+											</label> 
+											<!-- END Email Input and Validation -->
+											<!-- Telephone Input and Validation -->
+											<input type="text" name="c-phone" id="phone" placeholder="Your Telephone" data-uk-scrollspy="{cls:'uk-animation-fade', delay:60}">
+											<label for="phone" id="phoneLb">
+												<span class="error dark f-small">Telephone Required!</span>
+											</label>
+											<!-- END Telephone Input and Validation -->
+											<!-- Message Input and Validation -->
+											<textarea name="c-message" id="message" placeholder="Your Message" data-uk-scrollspy="{cls:'uk-animation-fade', delay:80}"></textarea>		
+											<label for="message" id="messageLb">
+												<span class="error dark f-small">Message Required!</span>
+											</label>
+											<!-- END Message Input and Validation -->				
+											<!-- Send Button -->
+											<button type="submit" class="button contact-btn" data-uk-scrollspy="{cls:'uk-animation-fade', delay:100}">Send</button>
+											<!-- END Send Button -->
+											<p class="dark f-small">
+												<i class="icon ion-ios-information"></i> All the fields are required!
+											</p>
+										</form>
+										<!-- END Contact Form -->
+									</div>
+									<!-- END Contact Container -->								
+							</div>
+							<!-- End Column -->
+						</div>
+						<!-- End Row -->
+					</div>
+					<!-- End Section Content -->
+				</div>
+				<!-- End Contact -->
+				<!-- Footer -->
+				<div id="footer" class="dark-bg">
+					<!-- Section Content -->
+					<div class="section-content">
+						<!-- Row -->
+						<div class="row" data-uk-scrollspy="{cls:'uk-animation-fade'}">						
+							<!-- Column -->
+							<div class="col-md-12">
+								<!-- Footer Logo -->
+								<div class="footer-logo">
+									<a href="#header"><img src="img/logo-footer.png" alt="" data-uk-smooth-scroll/></a>
+								</div>
+								<!-- End Footer Logo -->
+							</div>
+							<!-- End Column -->
+						</div>
+						<!-- End Row -->
+						<!-- Row -->
+						<div class="row" data-uk-scrollspy="{cls:'uk-animation-fade', delay:20}">
+							<!-- Column -->
+							<div class="col-md-12">
+								<!-- Footer Social -->
+								<ul class="footer-social">
+									<!-- Links -->
+									<li class="no-margin">
+										<a href="#">
+											<i class="fa fa-facebook white" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="fa fa-twitter white" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="fa fa-linkedin white" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="fa fa-instagram white" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://github.com/ThaWulfZA" target="_blank">
+											<i class="fa fa-github white" aria-hidden="true"></i>
+										</a>
+									</li>
+									<!-- End Links -->
+								</ul>
+								<!-- End Footer Social -->
+								<!-- Separator -->
+								<div class="separator-center"></div>
+								<!-- End Separator -->
+							</div>
+							<!-- End Column -->
+						</div>
+						<!-- End Row -->
+						<!-- Row -->
+						<div class="row">
+							<!-- Column -->
+							<div class="col-md-4" data-uk-scrollspy="{cls:'uk-animation-fade', delay:40}">
+								<!-- Footer Details -->
+								<div class="footer-details no-padding-top">
+									<!-- Title -->
+									<p class="white f-small uppercase bold">Phone</p>
+									<!-- Number -->
+									<p class="white f-small lato"><a href="tel:+27713711923" class="gray1">+27 71 371 1923</a></p>
+								</div>
+								<!-- End Footer Details -->
+							</div>
+							<!-- End Column -->
+							<!-- Column -->
+							<div class="col-md-4" data-uk-scrollspy="{cls:'uk-animation-fade', delay:40}">
+								<!-- Footer Details -->
+								<div class="footer-details">
+									<!-- Title -->
+									<p class="white f-small uppercase bold">Email</p>
+									<!-- Phone -->
+									<p class="white f-small lato"><a href="mailto:info@amani-projekts.co.za" class="gray1">info@amani-projekts.co.za</a></p>
+								</div>
+								<!-- End Footer Details -->
+							</div>
+							<!-- End Column -->							
+							<!-- Column -->
+							<div class="col-md-4" data-uk-scrollspy="{cls:'uk-animation-fade', delay:40}">
+								<!-- Footer Details -->
+								<div class="footer-details">
+									<!-- Title -->
+									<p class="white f-small uppercase bold">Address</p>
+									<!-- Phone -->
+									<p class="white f-small lato"><a href="#" class="gray1">Midrand, 1685</a></p>
+								</div>
+								<!-- End Footer Details -->
+							</div>
+							<!-- End Column -->
+						</div>
+						<!-- End Row -->
+					</div>
+					<div class="col-md-12 t-center" style="margin-top: 15px;">
+						<div class="row">
+							<span class="white">
+								<p>All rights reserved | Made with <i class="fas fa-heart"></i> by <a href="#" target="_blank"><span class="white">Amani Projekts.</span></a>
+									<br />Copyright © 2020. 
+								</p>
+							</span>
+						</div>
+					</div>					
+				</div>
+				<!-- End Footer -->
+			</div>
+			<!-- End All Sections -->
+		</div>
+		<!-- End Main Container -->			
+		<!-- JavaSript Files -->		
+			<!-- Essential JS Files -->
+			<script src="js/jquery-2.2.4.min.js"></script>			
+			<!-- Bootstrap -->
+			<script src="js/bootstrap.min.js"></script>			
+			<!-- uikit -->
+			<script src="js/uikit.min.js"></script>			
+			<!-- Custom Codes -->
+			<script src="js/custom.js"></script>			
+			<!-- JS Plugins -->				
+				<!-- Grid -->
+				<script src="js/grid.min.js"></script>				
+				<!-- Responsive Slider -->
+				<script src="js/responsiveslides.min.js"></script>				
+				<!-- Lightbox -->
+				<script src="js/lightbox-plus-jquery.min.js"></script>				
+				<!-- Lightbox Video -->
+				<script src="js/lightbox.min.js"></script>				
+				<!-- Text Rotator -->
+				<script src="js/jquery.simple-text-rotator.min.js"></script>
+				<!-- Contact -->
+				<script src="js/contact.js"></script>
+				<script>				
+					$(".rotate").textrotator({
+						  animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+						  separator: ",",
+						  speed: 1600 // How many milliseconds until the next word show.
+					});					
+				</script>
+		<!-- End JavaSript Files -->
+	</body>
+	<!-- End Body -->
+</html>
