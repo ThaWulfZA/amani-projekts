@@ -2,8 +2,8 @@
 
 
 Name: custom.js
-Author: TemplateMilk
-Website: https://www.templatemilk.com
+Author: Amani Projekts
+Website: https://www.amani-projekts.co.za
 
 */
 
